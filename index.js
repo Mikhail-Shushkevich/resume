@@ -34,7 +34,7 @@ const handleFormSubmit = (event) => {
         expDescription: event.target.expDescription.value,
     };
 
-    renderExpOnThePag(data);
+    renderExpOnThePage(data);
 
     if (data.expType === "work") {
         work.push(data);
